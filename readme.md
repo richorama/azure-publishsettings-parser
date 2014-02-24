@@ -36,9 +36,7 @@ parser.loadFromString("<xml...>", function(err, subscriptions){
 	...
 });
 ```
-When you have found the subscription you want (often there it only one!) you can create an instance of Windows Azure Service Management Service, as described here: 
-
-http://www.windowsazure.com/en-us/documentation/articles/virtual-machines-linux-how-to-service-api/
+When you have found the subscription you want (often there is only one!) you can create an instance of Windows Azure Service Management Service:
 
 ```js
 var azure = require('azure');
@@ -47,6 +45,10 @@ sms.listStorageAccounts(function(err,data){
 	console.log(data.body);
 });
 ```
+
+For more information on the `ServiceManagementService` see the Microsoft documentation: 
+
+http://www.windowsazure.com/en-us/documentation/articles/virtual-machines-linux-how-to-service-api/
 
 ## Thanks
 
