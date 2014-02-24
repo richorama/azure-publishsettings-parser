@@ -1,4 +1,4 @@
-# azure-publishsettings.parser
+# azure-publishsettings-parser
 
 A node.js utility to parse the Windows Azure publishsettings file, and create `ServiceManagementService` objects to work with the Azure Service Management API.
 
