@@ -1,0 +1,30 @@
+{
+  "name": "azure-publishsettings-parser",
+  "version": "0.0.0",
+  "description": "A node.js utility to parse the Windows Azure publishsettings file, and create ServiceManagementService objects to work with the Azure Service Management API.",
+  "main": "index.js",
+  "dependencies": {
+    "xml2js": "~0.4.1",
+    "azure": "~0.8.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/richorama/azure-publishsettings-parser.git"
+  },
+  "keywords": [
+    "azure",
+    "management",
+    "api",
+    "publishsettings"
+  ],
+  "author": "richard.astbury",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/richorama/azure-publishsettings-parser/issues"
+  },
+  "homepage": "https://github.com/richorama/azure-publishsettings-parser"
+}
