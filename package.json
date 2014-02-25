@@ -1,11 +1,10 @@
 {
   "name": "azure-publishsettings-parser",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A node.js utility to parse the Windows Azure publishsettings file, and create ServiceManagementService objects to work with the Azure Service Management API.",
   "main": "index.js",
   "dependencies": {
-    "xml2js": "~0.4.1",
-    "azure": "~0.8.1"
+    "xml2js": "~0.4.1"
   },
   "devDependencies": {},
   "scripts": {
